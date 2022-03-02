@@ -1,4 +1,5 @@
 <?php
+
 abstract Class Stats
 {
     public float $hp;
@@ -8,11 +9,11 @@ abstract Class Stats
     public int $luck;
     public function __construct(float $hp, int $strength, int $defence, int $speed, int $luck)
     {
-        $this->hp=$hp;
-        $this->strength=$strength;
-        $this->defence=$defence;
-        $this->speed=$speed;
-        $this->luck=$luck;
+        $this->hp = $hp;
+        $this->strength = $strength;
+        $this->defence = $defence;
+        $this->speed = $speed;
+        $this->luck = $luck;
     }
     abstract public function setHP(float $newHP);
     abstract public function setStrength(int $newStrength);

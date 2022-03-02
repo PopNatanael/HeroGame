@@ -3,59 +3,59 @@
 return [
     'heroStats' =>
     [
-        'heroHP'=>
+        'heroHP' =>
         [
-            'min'=>70,
-            'max'=>100
+            'min' => 70,
+            'max' => 100
         ],
-        'heroStrength'=>
+        'heroStrength' =>
         [
-            'min'=>70,
-            'max'=>80
+            'min' => 70,
+            'max' => 80
         ],
-        'heroDefence'=>
+        'heroDefence' =>
         [
-            'min'=>45,
-            'max'=>55
+            'min' => 45,
+            'max' => 55
         ],
-        'heroSpeed'=>
+        'heroSpeed' =>
         [
-            'min'=>40,
-            'max'=>50
+            'min' => 40,
+            'max' => 50
         ],
         'heroLuck'=>
         [
-            'min'=>10,
-            'max'=>30
+            'min' => 10,
+            'max' => 30
         ]
     ],
     'monsterStats' =>
     [
-        'monsterHP'=>
+        'monsterHP' =>
         [
-            'min'=>60,
-            'max'=>90
+            'min' => 60,
+            'max' => 90
         ],
-        'monsterStrength'=>
+        'monsterStrength' =>
         [
-            'min'=>60,
-            'max'=>90
+            'min' => 60,
+            'max' => 90
         ],
-        'monsterDefence'=>
+        'monsterDefence' =>
         [
-            'min'=>40,
-            'max'=>60
+            'min' => 40,
+            'max' => 60
         ],
-        'monsterSpeed'=>
+        'monsterSpeed' =>
         [
-            'min'=>40,
-            'max'=>60
+            'min' => 40,
+            'max' => 60
         ],
-        'monsterLuck'=>
+        'monsterLuck' =>
         [
-            'min'=>25,
-            'max'=>40
+            'min' => 25,
+            'max' => 40
         ]
     ],
-    'NumberOfRounds'=>20
+    'NumberOfRounds' => 20
 ];
