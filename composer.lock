@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2a337acf5eb46e6c04d43b3a60903122",
+    "packages": [
+        {
+            "name": "nati/dealers-choice",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PopNatanael/composerTest.git",
+                "reference": "21e1ad80b518a297a13618b48f6c713311d1d08e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PopNatanael/composerTest/zipball/21e1ad80b518a297a13618b48f6c713311d1d08e",
+                "reference": "21e1ad80b518a297a13618b48f6c713311d1d08e",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Nati\\DealersChoice\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "PopNatanael",
+                    "email": "natipop1@yahoo.com"
+                }
+            ],
+            "description": "ce vreti voi",
+            "support": {
+                "source": "https://github.com/PopNatanael/composerTest/tree/master",
+                "issues": "https://github.com/PopNatanael/composerTest/issues"
+            },
+            "time": "2022-03-02T16:01:16+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "nati/dealers-choice": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

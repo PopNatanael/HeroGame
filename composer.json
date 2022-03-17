@@ -1,0 +1,25 @@
+{
+    "name": "nati/herog",
+    "description": "hero game",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Nati\\Herog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PopNatanael",
+            "email": "natipop1@yahoo.com"
+        }
+    ],
+    "require": {
+        "nati/dealers-choice":"dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/PopNatanael/composerTest.git"
+        }
+    ]
+}

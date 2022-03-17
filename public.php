@@ -1,14 +1,21 @@
 <?php
 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+require 'vendor/autoload.php';
+use Nati\DealersChoice\echoa;
+
+// exit("test");
+
 include 'src/src.php';
 include 'src/Monster.php';
 include 'src/Hero.php';
 include 'src/gameRun.php';
 
 //error display
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+
 
 $stats = include 'config/config.php';
 
